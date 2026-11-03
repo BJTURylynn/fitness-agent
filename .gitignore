@@ -1,0 +1,17 @@
+dist/
+node_modules/
+.env
+.env.*
+!.env.example
+local-env.json
+*.log
+*.tar.gz
+*.zip
+work/
+outputs/
+pnpm-store/
+model-runtime.json
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*

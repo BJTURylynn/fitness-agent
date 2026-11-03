@@ -1,0 +1,23 @@
+{
+  "name": "fitness-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate-artifact.mjs",
+    "db:generate": "drizzle-kit generate",
+    "predev": "node scripts/build.mjs",
+    "prestart": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.10",
+    "drizzle-orm": "0.45.2"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
